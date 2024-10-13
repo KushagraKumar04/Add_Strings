@@ -18,7 +18,7 @@ public:
             if (j >= 0) sum += num2[j--] - '0';  
 
             result += (sum % 10) + '0';  
-            carry = sum / 10; 
+            carry= sum / 10; 
         }
 
         reverse(result.begin(), result.end());
