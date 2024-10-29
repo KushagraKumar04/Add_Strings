@@ -2,7 +2,7 @@
 #include<string>
 #include<algorithm>
 using namespace std;
-
+//C
 class Solution {
 public:
     string addStrings(string num1, string num2) {
